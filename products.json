@@ -1,0 +1,53 @@
+[
+    {
+        "nombre": "Desarrollo web",
+        "precio": 25000,
+        "descripcion": "Ofrecemos servicios de desarrollo web de alta calidad para empresas de cualquier tamaño."
+    },
+    {
+        "nombre": "Diseño gráfico",
+        "precio": 13500,
+        "descripcion": "Nuestros diseñadores gráficos están a tu disposición para crear cualquier tipo de material visual que necesites."
+    },
+    {
+        "nombre": "Optimización SEO",
+        "precio": 3500,
+        "descripcion": "Mejora la visibilidad de tu sitio web en los resultados de búsqueda con nuestros servicios de optimización SEO."
+    },
+    {
+        "nombre": "Gestion de redes sociales",
+        "precio": 6000,
+        "descripcion": "Deja que nuestros expertos en redes sociales se encarguen de tu presencia en línea y aumenten tu alcance y engagement."
+    },
+
+    {
+        "nombre": "Redacción de contenido",
+        "precio": 5000,
+        "descripcion": "Si necesitas contenido para tu sitio web o blog, nuestro equipo de redactores puede crear textos de alta calidad en cualquier tema."
+    },
+    {
+        "nombre": "Publicidad en línea",
+        "precio": 14000,
+        "descripcion": "Mejora la visibilidad de tu empresa con publicidad en línea en plataformas como Google y Facebook."
+    },
+    {
+        "nombre": "Fotografía y video",
+        "precio": 15500,
+        "descripcion": "Crea contenido visual de alta calidad para tu empresa con nuestros servicios de fotografía y video."
+    },
+    {
+        "nombre": "Marketing de influencers",
+        "precio": 9500,
+        "descripcion": "Conecta con tu público objetivo a través de influencers relevantes para tu marca y aumenta tu alcance en las redes sociales."
+    },
+    {
+        "nombre": "Email marketing",
+        "precio": 3000,
+        "descripcion": "Llega a tu audiencia directamente en su bandeja de entrada con nuestros servicios de email marketing."
+    },
+    {
+        "nombre": "Gestion de reputación",
+        "precio": 5000,
+        "descripcion": "Estrategias y técnicas para mejorar la percepción de una marca, persona o empresa en redes sociales, minimizando efectos negativos de críticas o comentarios desfavorables."
+    }
+]

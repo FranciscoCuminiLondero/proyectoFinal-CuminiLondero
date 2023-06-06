@@ -1,0 +1,244 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos Generales */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    margin-top: 90px;
+}
+
+h2 {
+    color: #444;
+    text-align: center;
+    margin: 10px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+button {
+    background-color: #16175D;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3977D4;
+}
+
+/* Estilos Header */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    z-index: 1000;
+}
+
+header .federal-blue {
+    color: #16175D;
+}
+
+header .crayola-blue {
+    color: #3977D4;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.nombre h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.carrito {
+    margin-left: auto;
+}
+
+.carrito a {
+    text-decoration: none;
+    color: #16175D;
+}
+
+.carrito a:hover {
+    color: #3977D4;
+}
+
+.fa-cart-shopping {
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+#price-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#price-filter input {
+    margin-right: 20px;
+    padding: 10px;
+}
+
+#price-filter button {
+    margin: 0;
+}
+
+/* Estilo de Tarjeta de Productos */
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#products div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 30px;
+    padding: 30px;
+    width: 300px;
+}
+
+#products h3 {
+    color: #2f558f;
+}
+
+#products h4 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #16175D  ;
+}
+
+#products p {
+    margin-top: 20px;
+}
+
+/* Estilo de carrito */
+#cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 25px auto;
+    width: 50%;
+}
+
+#cart ul {
+    list-style: none;
+    text-align: end;
+    margin: 20px;
+}
+
+#cart ul li {
+    padding: 10px 0;
+}
+
+#cart button {
+    margin: 0 10px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 5px 10px;
+}
+
+#cart-total {
+    padding-bottom: 20px;
+}
+
+#checkout-button, #enviar-button {
+    font-size: 1rem;
+    padding: 10px 20px !important;
+    margin: 0 10px !important;
+}
+
+#vaciar-carrito-container {
+    margin: 20px;
+}
+
+/* Estilo de Formulario */
+
+#checkout-form {
+    width: 80%;
+    text-align: center;
+}
+
+#checkout-form h2 {
+    margin-top: 50px;
+}
+
+form {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: 700;
+    text-align: start;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+form input:required, form input:invalid {
+    border-color: #c44040;
+}
+
+form input:valid {
+    border-color: #589c58;
+}
+
+form input:invalid {
+    background-color: #c4404037;
+}
+
+#mensaje {
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 900;
+    color: #c44040;
+}
+
+
